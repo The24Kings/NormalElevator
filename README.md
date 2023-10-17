@@ -26,7 +26,7 @@ summon minecraft:armor_stand ~ ~ ~ {Tags:["INSERT_TAG","elevator","close"],Invis
     - Paste them into the tp command.
     - Change the tag from `INSERT_TAG` to your room's tag
 
-```
+```MCFUNCTION
 execute as @e[tag=inside] at @s run tp @s ~ ~ ~
 
 tag @a add INSERT_TAG
