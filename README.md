@@ -66,6 +66,7 @@ execute as @e[type=armor_stand, tag=selected, tag=INSERT_TAG, sort=nearest] at @
 ### Create the room selector
 
 > There is an area located on the map where one may enable and disable rooms. For the game to know which rooms to select one must enable it.
+
 - Find an open slot and summon an armor stand with the corresponding command:
     - Change `INSERT_TAG` to the room's tag
     - Change the name text with the room's name to find it later
@@ -76,6 +77,9 @@ summon minecraft:armor_stand ~ ~.5 ~ {Tags:["floor","INSERT_TAG"],CustomName:"{\
 - Test that the command works by pressing the button labeled `Respawn Room Area`
 
 <img src="resources\room_area.png"></img>
+
+### Add the room to the reset logic
+- Under `data\elevator\functions\reset_floors.mcfunction` add the command you made in [Placing Elevator Marker](#place-the-elevators-marker)
 
 ### Add the new room to the Advancements
 
@@ -110,6 +114,13 @@ summon minecraft:armor_stand ~ ~.5 ~ {Tags:["floor","INSERT_TAG"],CustomName:"{\
 ```
 
 > Make sure you format the JSON correctly otherwise it will not appear.
+
+## Optional Additions
+- Add a room specfic advancement to `data\elevator\advancements\elevator` by copying `data/elevator/advancements/elevator/template.json`
+- Add any restart conditions to `data\rooms\functions\refresh_rooms.mcfunction`
+    - Room functions are added under `data\rooms\functions`
+- Any tasks that need to be frequenty executed may be added to `data\tasks\functions`
+- Add custom sounds to `data\sounds\functions`
 
 ---
 
