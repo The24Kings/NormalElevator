@@ -12,6 +12,8 @@
     - Replace `~ ~ ~` with the coordinates to spawn the armor stand, ensuring that it is in the correct position as shown.
     - Replace `INSERT_TAG` with the room's corresponding tag.
 
+> It is crucial that the armor stand faces away from the elevator, the blue line denotes the facing direction of the armor stand
+
 ```MCFUNCTION
 summon minecraft:armor_stand ~ ~ ~ {Tags:["INSERT_TAG","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 ```
