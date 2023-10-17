@@ -1,6 +1,17 @@
-# How to add a floor to a Normal Elevator
+# A Normal Elevator
+Based on the popular GMOD map created by <a href="https://www.pixeltailgames.com/"> PixelTail Games</a> and originally created by <a href=https://www.youtube.com/channel/UCHobjD55wR4c-5bD0AHDcEQ>ThePebblePrince</a>
+
+<img src="resources\elevator_entrance.png"></img>
+
+## Version
+<a href="https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-2">Minecraft 1.19.2</a>
+
+## Map Download
+Comming Soon™
 
 ---
+
+# How to add a floor to a Normal Elevator
 
 ### Create the room
 
@@ -99,6 +110,8 @@ summon minecraft:armor_stand ~ ~.5 ~ {Tags:["floor","INSERT_TAG"],CustomName:"{\
 ```
 
 > Make sure you format the JSON correctly otherwise it will not appear.
+
+---
 
 ### Finally
 - Reload the data pack and you should be good to go!
