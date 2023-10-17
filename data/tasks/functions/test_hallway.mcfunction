@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:armor_stand,tag=active,tag=break_away] as @a[distance=..2] run function tasks:break_hallway_floor

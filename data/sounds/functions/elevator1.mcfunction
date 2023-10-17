@@ -1,0 +1,1 @@
+execute at @p as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=close] run playsound minecraft:elevator.okpopko master @a ~ ~ ~ .2

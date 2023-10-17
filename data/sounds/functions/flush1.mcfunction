@@ -1,0 +1,1 @@
+execute as @e[tag=bathroom_villager] at @s positioned ~ ~-1 ~ run playsound minecraft:entity.ghast.hurt hostile @a ~ ~ ~ 10 .1

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "title": {"translate":"Strange Totem"},
+        "frame":"goal",
+        "description": {"color":"green","translate":"Obtain the Temple Totem"}
+    },
+    "parent": "elevator:elevator/visit_temple",
+    "criteria": {
+        "key": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crying_obsidian"
+						],
+                        "nbt": "{CustomTag:key}",
+						"count": 1
+					}
+				]
+			}
+        }
+    }
+}

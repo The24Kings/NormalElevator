@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "target": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                }
+            }  
+        },
+        "not_target": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:player"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "target",
+            "not_target"
+        ]
+    ],
+    "rewards": {
+        "function": "elevator:slap"
+    }
+}

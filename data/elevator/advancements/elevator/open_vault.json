@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lodestone"
+        },
+        "title": {"translate":"What Could Be Inside?"},
+        "frame":"goal",
+        "description": {"color":"green","translate":"Open the vault using the key"},
+        "hidden": true
+    },
+    "parent": "elevator:elevator/visit_vault",
+    "criteria": {
+        "floor": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:crying_obsidian"
+            }  
+        }
+    }
+}

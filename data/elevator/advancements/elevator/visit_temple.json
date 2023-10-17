@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mossy_stone_bricks"
+        },
+        "title": {"translate":"Ancient Temple"},
+        "frame":"task",
+        "description": {"color":"green","translate":"Many secrets are hidden deep in the jungle"}
+    },
+    "parent": "elevator:elevator/first_floor",
+    "criteria": {
+        "temple": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"temple\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

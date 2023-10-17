@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": {"translate":"Normal Elevator"},
+		"description": {"color":"green","translate":"Welcome to the normal elevator"},
+		"icon": {
+			"item": "minecraft:copper_block"
+		},
+		"background": "minecraft:textures/block/light_gray_terracotta.png",
+		"show_toast": false,
+		"announce_to_chat": false
+		
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

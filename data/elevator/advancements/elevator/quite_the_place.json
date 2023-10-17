@@ -1,0 +1,339 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:\"Dipicrylamine\"}"
+        },
+        "title": {"translate":"Quite The Place!"},
+        "frame":"challenge",
+        "description": {"color":"purple","translate":"Visit all floors"}
+    },
+    "parent": "elevator:elevator/first_floor",
+    "criteria": {
+        "offensive_post": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"offensive_post\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "bee": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"bee\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "manner": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"manner\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "geode_cave": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"geode_cave\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "treasure_cave": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"treasure_cave\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "bathroom": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"bathroom\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "pompeii": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"pompeii\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "fish_tank": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"fish_tank\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "crypt": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"crypt\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "passage": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"passage\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "lost": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"lost\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "mansion": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"mansion\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "maze": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"maze\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "temple": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"temple\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "chicken": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"chicken\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "hallway": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"hallway\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "pig_race": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"pig_race\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "vault": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"vault\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "oasis": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"oasis\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "offensive_post"
+        ],
+        [
+            "bee"
+        ],
+        [
+            "manner"
+        ],
+        [
+            "geode_cave"
+        ],
+        [
+            "treasure_cave"
+        ],
+        [
+            "bathroom"
+        ],
+        [
+            "pompeii"
+        ],
+        [
+            "fish_tank"
+        ],
+        [
+            "crypt"
+        ],
+        [
+            "passage"
+        ],
+        [
+            "lost"
+        ],
+        [
+            "mansion"
+        ],
+        [
+            "maze"
+        ],
+        [
+            "temple"
+        ],
+        [
+            "chicken"
+        ],
+        [
+            "hallway"
+        ],
+        [
+            "pig_race"
+        ],
+        [
+            "vault"
+        ],
+        [
+            "oasis"
+        ]
+    ]
+}

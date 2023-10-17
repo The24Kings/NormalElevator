@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "title": {"translate":"You Monster"},
+        "frame":"task",
+        "description": {"color":"green","translate":"You stood there and watched"}
+    },
+    "parent": "elevator:elevator/first_floor",
+    "criteria": {
+        "chicken": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"chicken\"]}"
+                        }
+                    }
+                ]
+            }  
+        }
+    }
+}
