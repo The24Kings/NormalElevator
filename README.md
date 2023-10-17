@@ -116,10 +116,10 @@ summon minecraft:armor_stand ~ ~.5 ~ {Tags:["floor","INSERT_TAG"],CustomName:"{\
 > Make sure you format the JSON correctly otherwise it will not appear.
 
 ## Optional Additions
-- Add a room specfic advancement to `data\elevator\advancements\elevator` by copying `data/elevator/advancements/elevator/template.json`
+- Add a room-specific advancement to `data\elevator\advancements\elevator` by copying `data/elevator/advancements/elevator/template.json`
 - Add any restart conditions to `data\rooms\functions\refresh_rooms.mcfunction`
     - Room functions are added under `data\rooms\functions`
-- Any tasks that need to be frequenty executed may be added to `data\tasks\functions`
+- Any tasks that need to be frequently executed may be added to `data\tasks\functions`
 - Add custom sounds to `data\sounds\functions`
 
 ---
