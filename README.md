@@ -7,7 +7,7 @@ Based on the popular GMOD map created by <a href="https://www.pixeltailgames.com
 <a href="https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-2">Minecraft 1.19.2</a>
 
 ## Map Download
-Comming Soon™
+<a href=https://www.mediafire.com/file/ocjjs2i2elbvvfr/Normal+Elevator.zip/file>World Download</a> on Mediafire
 
 ---
 
