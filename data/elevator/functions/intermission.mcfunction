@@ -1,5 +1,3 @@
-##Make sure to set the tp coords to the delay area (-6 4 19)
-
 #TP all players outside the elevator to the intermission room
 execute as @a[tag=!inside] run effect give @s minecraft:blindness 5 2 true
 execute at @e[type=armor_stand,tag=intermission] run tp @a[tag=!inside] ^ ^-4 ^-5
