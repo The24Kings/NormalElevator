@@ -1,5 +1,5 @@
 # A Normal Elevator
-Based on the popular GMOD map created by <a href="https://www.pixeltailgames.com/"> PixelTail Games</a> and originally created by <a href=https://www.youtube.com/channel/UCHobjD55wR4c-5bD0AHDcEQ>ThePebblePrince</a>
+Based on the popular GMOD map created by <a href="https://www.pixeltailgames.com/elevator/"> PixelTail Games</a> and originally created by <a href=https://www.youtube.com/channel/UCHobjD55wR4c-5bD0AHDcEQ>ThePebblePrince</a>
 
 <img src="resources\elevator_entrance.png"></img>
 
