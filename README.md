@@ -39,10 +39,18 @@ summon minecraft:armor_stand ~ ~ ~ {Tags:["INSERT_TAG","elevator","close"],Invis
     - Paste them into the tp command.
     - Change the tag from `INSERT_TAG` to your room's tag
 
+- Add a room timer
+    - Change `CLOSE_TIME` to the desired room length (in seconds)
+    - Change `TP_TIME` to `CLOSE_TIME` + 3s
+
 ```MCFUNCTION
 execute as @e[tag=inside] at @s run tp @s ~ ~ ~
 
 tag @a add INSERT_TAG
+
+schedule function tasks:close_room_door CLOSE_TIME
+
+schedule function elevator:intermission TP_TIME
 ```
 
 ### Add transition logic
@@ -63,6 +71,15 @@ execute as @e[type=armor_stand, tag=selected, tag=INSERT_TAG, sort=nearest] at @
 
 > The `oasis.mcfunction` contains the tp coords ` ~97 ~ ~-266` so the corresponding coords in `intermission.mcfunction` should be `~-97 ~ ~266`
 
+- Remove the old room's tag
+    - Replace `INSERT_TAG` to the room's tag
+
+```MCFUNCTION
+execute as @a[tag=inside,tag=INSERT_TAG] at @s run tp @s ~ ~ ~
+
+tag @a remove INSERT_TAG
+```
+
 ### Create the room selector
 
 > There is an area located on the map where one may enable and disable rooms. For the game to know which rooms to select one must enable it.
@@ -70,6 +87,7 @@ execute as @e[type=armor_stand, tag=selected, tag=INSERT_TAG, sort=nearest] at @
 - Find an open slot and summon an armor stand with the corresponding command:
     - Change `INSERT_TAG` to the room's tag
     - Change the name text with the room's name to find it later
+
 ```MCFUNCTION
 summon minecraft:armor_stand ~ ~.5 ~ {Tags:["floor","INSERT_TAG"],CustomName:"{\"text\":\"test\"}",CustomNameVisible:1}
 ```
@@ -77,9 +95,6 @@ summon minecraft:armor_stand ~ ~.5 ~ {Tags:["floor","INSERT_TAG"],CustomName:"{\
 - Test that the command works by pressing the button labeled `Respawn Room Area`
 
 <img src="resources\room_area.png"></img>
-
-### Add the room to the reset logic
-- Under `data\elevator\functions\reset_floors.mcfunction` add the command you made in [Placing Elevator Marker](#place-the-elevators-marker)
 
 ### Add the new room to the Advancements
 
