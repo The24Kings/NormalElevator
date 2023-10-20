@@ -1,5 +1,6 @@
 #TP Player to room's elevator from intermission
 execute as @e[tag=inside] at @s run tp @s ~66 ~ ~-118
+schedule function tasks:set_respawn_point 10t
 
 #Open Door
 schedule function tasks:open_room_door 1s
