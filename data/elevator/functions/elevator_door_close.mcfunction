@@ -35,7 +35,7 @@ execute as @e[type=armor_stand, sort=nearest] if score @s door_timer matches 50 
 #Teleports all players inside a closed elevator to the intermission room
 #Tag:"start" will start game loop
 #Tag:"credits" will tp to start
-execute as @e[type=armor_stand, tag=close, tag=start, sort=nearest] if score @s door_timer matches 50 run function rooms:start
+execute as @e[type=armor_stand, tag=close, tag=start, sort=nearest] if score @s door_timer matches 50 run function elevator:start
 execute as @e[type=armor_stand, tag=close, tag=credits, sort=nearest] if score @s door_timer matches 50 run function elevator:return_to_start
 
 #Resets the scoreboards after the door_timer reaches 50
