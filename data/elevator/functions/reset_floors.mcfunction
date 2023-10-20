@@ -27,6 +27,7 @@ summon minecraft:armor_stand 132 29 -15 {Tags:["chicken",      "elevator","close
 summon minecraft:armor_stand 162 29 -140 {Tags:["pig_race",    "elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 47 29 -229 {Tags:["vault",        "elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 104 29 -229 {Tags:["oasis",       "elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
+summon minecraft:armor_stand 236 29 -200 {Tags:["skyblock","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 
 #Test Elevators
 summon minecraft:armor_stand 5 8 24 {Tags:["open","elevator","dummy"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}

@@ -1,12 +1,17 @@
 {
-    "display":{
+    "display": {
         "icon": {
             "item": "minecraft:player_head",
             "nbt": "{SkullOwner:\"Dipicrylamine\"}"
         },
-        "title": {"translate":"Quite The Place!"},
-        "frame":"challenge",
-        "description": {"color":"purple","translate":"Visit all floors"}
+        "title": {
+            "translate": "Quite The Place!"
+        },
+        "frame": "challenge",
+        "description": {
+            "color": "purple",
+            "translate": "Visit all floors"
+        }
     },
     "parent": "elevator:elevator/first_floor",
     "criteria": {
@@ -275,6 +280,20 @@
                     }
                 ]
             }
+        },
+        "skyblock": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"skyblock\"]}"
+                        }
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -334,6 +353,7 @@
         ],
         [
             "oasis"
-        ]
+        ],
+        "skyblock"
     ]
 }

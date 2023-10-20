@@ -20,10 +20,11 @@ execute as @a[tag=inside,tag=mansion] at @s run tp @s ~-35 ~ ~177
 execute as @a[tag=inside,tag=maze] at @s run tp @s ~-155 ~ ~52
 execute as @a[tag=inside,tag=temple] at @s run tp @s ~-215 ~ ~52
 execute as @a[tag=inside,tag=chicken] at @s run tp @s ~-125 ~ ~52
-execute as @a[tag=inside,tag=hallway] at @s run tp @s ~45 ~ ~
+execute as @a[tag=inside,tag=hallway] at @s run tp @s ~45 ~ ~-5
 execute as @a[tag=inside,tag=pig_race] at @s run tp @s ~-155 ~ ~177
 execute as @a[tag=inside,tag=vault] at @s run tp @s ~-40 ~ ~266
 execute as @a[tag=inside,tag=oasis] at @s run tp @s ~-97 ~ ~266
+execute as @a[tag=inside,tag=skyblock] at @s run tp @s ~-229 ~0 ~237
 
 
 #Remove all room specific tags
@@ -48,6 +49,7 @@ tag @a remove hallway
 tag @a remove pig_race
 tag @a remove vault
 tag @a remove oasis
+tag @a remove skyblock
 
 #Music
 function sounds:elevator1
