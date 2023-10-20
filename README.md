@@ -11,7 +11,32 @@ Based on the popular GMOD map created by <a href="https://www.pixeltailgames.com
 
 ---
 
-# How to add a floor to a Normal Elevator
+# Automatically Add New Floors
+
+- Create an elevator in any desired location
+    - Note down the coordinates of the `Sea Lantern` block located at the top
+
+<img src="resources\center_location.png"></img>
+
+- Run the automated script `add_floors.py`
+    - The script will prompt you for 3 key details
+        - Floor name
+        - Coordinates of center
+        - Expected time to spend on the floor
+
+<img src="resources\add_floor_example.png"></img>
+
+> The above example is of a newly created floor
+
+- The script will give you a command to place into one of the open room selection slots in the `room_area`
+    - Enter the command in the desired area and enable it by replacing the `Red Wool` with `Green Wool`
+    - Run the function `rooms:reset_rooms`
+
+---
+
+# How to add a floor to a Normal Elevator Manually
+
+> Please use the automated script `add_floor.py`
 
 ### Create the room
 
@@ -35,7 +60,7 @@ summon minecraft:armor_stand ~ ~ ~ {Tags:["INSERT_TAG","elevator","close"],Invis
 
 - Copy `data\rooms\functions\template.mcfunction` and rename it to the room's tag
 - In the newly created function do the following:
-    - Using the center of the new elevator, find the relative coords from the intermission elevator located at `7, 30, 42`
+    - Using the center of the new elevator, find the relative coords from the intermission elevator located at <br>`7, 30, 42`
     - Paste them into the tp command.
     - Change the tag from `INSERT_TAG` to your room's tag
 
