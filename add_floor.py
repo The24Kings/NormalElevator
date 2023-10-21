@@ -164,11 +164,11 @@ def main():
         match index:
             case 2:
                 contents[index - 1] = 'execute as @a[tag=inside] at @s run tp @s ' + f'~{relative_x} ~{relative_y} ~{relative_z}' + '\n'
-            case 8:
+            case 9:
                 contents[index - 1] = 'tag @a add ' + f'{floor_name}' + '\n'
-            case 14:
+            case 15:
                 contents[index - 1] = 'schedule function tasks:close_room_door ' + f'{time}s' + '\n'
-            case 17:
+            case 18:
                 contents[index - 1] = 'schedule function elevator:intermission ' + f'{time + 3}s' + '\n'
             case _:
                 continue
