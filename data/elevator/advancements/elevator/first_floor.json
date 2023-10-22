@@ -1,27 +1,33 @@
 {
-    "display":{
-        "icon": {
-            "item": "minecraft:polished_andesite"
-        },
-        "title": {"translate":"A Strange Dimension"},
-        "frame":"task",
-        "description": {"color":"green","translate":"Enter the Elevator"}
+    "display": {
+      "icon": {
+        "item": "minecraft:polished_andesite"
+      },
+      "title": {
+        "translate": "A Strange Dimension"
+      },
+      "description": {
+        "translate": "Enter the Elevator",
+        "color": "green"
+      },
+      "frame": "task"
     },
     "parent": "elevator:elevator/root",
     "criteria": {
-        "floor": {
-            "trigger": "minecraft:tick",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "nbt": "{Tags:[\"start\"]}"
-                        }
-                    }
-                ]
+      "floor": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"start\"]}"
+              }
             }
+          ]
         }
+      }
     }
-}
+  }
+  

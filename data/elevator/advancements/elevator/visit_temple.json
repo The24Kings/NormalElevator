@@ -1,27 +1,33 @@
 {
     "display": {
-        "icon": {
-            "item": "minecraft:mossy_stone_bricks"
-        },
-        "title": {"translate":"Ancient Temple"},
-        "frame":"task",
-        "description": {"color":"green","translate":"Many secrets are hidden deep in the jungle"}
+      "icon": {
+        "item": "minecraft:mossy_stone_bricks"
+      },
+      "title": {
+        "translate": "Ancient Temple"
+      },
+      "description": {
+        "translate": "Many secrets are hidden deep in the jungle",
+        "color": "green"
+      },
+      "frame": "task"
     },
     "parent": "elevator:elevator/first_floor",
     "criteria": {
-        "temple": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "nbt": "{Tags:[\"temple\"]}"
-                        }
-                    }
-                ]
+      "temple": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"temple\"]}"
+              }
             }
+          ]
         }
+      }
     }
-}
+  }
+  

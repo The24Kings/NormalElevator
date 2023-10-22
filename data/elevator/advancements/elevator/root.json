@@ -1,18 +1,23 @@
 {
 	"display": {
-		"title": {"translate":"Normal Elevator"},
-		"description": {"color":"green","translate":"Welcome to the normal elevator"},
-		"icon": {
-			"item": "minecraft:copper_block"
-		},
-		"background": "minecraft:textures/block/light_gray_terracotta.png",
-		"show_toast": false,
-		"announce_to_chat": false
-		
+	  "icon": {
+		"item": "minecraft:copper_block"
+	  },
+	  "title": {
+		"translate": "Normal Elevator"
+	  },
+	  "description": {
+		"translate": "Welcome to the normal elevator",
+		"color": "green"
+	  },
+	  "background": "minecraft:textures/block/light_gray_terracotta.png",
+	  "show_toast": false,
+	  "announce_to_chat": false
 	},
 	"criteria": {
-		"trigger": {
-			"trigger": "minecraft:tick"
-		}
+	  "trigger": {
+		"trigger": "minecraft:tick"
+	  }
 	}
-}
+  }
+  

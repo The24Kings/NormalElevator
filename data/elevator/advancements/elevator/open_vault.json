@@ -1,20 +1,36 @@
 {
     "display": {
-        "icon": {
-            "item": "minecraft:lodestone"
-        },
-        "title": {"translate":"What Could Be Inside?"},
-        "frame":"goal",
-        "description": {"color":"green","translate":"Open the vault using the key"},
-        "hidden": true
+      "icon": {
+        "item": "minecraft:lodestone"
+      },
+      "title": {
+        "translate": "What Could Be Inside?"
+      },
+      "description": {
+        "translate": "Open the vault using the key",
+        "color": "green"
+      },
+      "frame": "goal",
+      "hidden": true
     },
     "parent": "elevator:elevator/visit_vault",
     "criteria": {
-        "floor": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "block": "minecraft:crying_obsidian"
-            }  
+      "floor": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:crying_obsidian"
+                  ]
+                }
+              }
+            }
+          ]
         }
+      }
     }
-}
+  }

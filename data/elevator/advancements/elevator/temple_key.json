@@ -1,27 +1,33 @@
 {
     "display": {
-        "icon": {
-            "item": "minecraft:crying_obsidian"
-        },
-        "title": {"translate":"Strange Totem"},
-        "frame":"goal",
-        "description": {"color":"green","translate":"Obtain the Temple Totem"}
+      "icon": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "title": {
+        "translate": "Strange Totem"
+      },
+      "description": {
+        "translate": "Obtain the Temple Totem",
+        "color": "green"
+      },
+      "frame": "goal"
     },
     "parent": "elevator:elevator/visit_temple",
     "criteria": {
-        "key": {
-            "trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:crying_obsidian"
-						],
-                        "nbt": "{CustomTag:key}",
-						"count": 1
-					}
-				]
-			}
+      "key": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:crying_obsidian"
+              ],
+              "count": 1,
+              "nbt": "{CustomTag:key}"
+            }
+          ]
         }
+      }
     }
-}
+  }
+  

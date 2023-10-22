@@ -1,27 +1,33 @@
 {
     "display": {
-        "icon": {
-            "item": "minecraft:iron_block"
-        },
-        "title": {"translate":"Mysterious Vault"},
-        "frame":"task",
-        "description": {"color":"green","translate":"What treasures lay just behind that door?"}
+      "icon": {
+        "item": "minecraft:iron_block"
+      },
+      "title": {
+        "translate": "Mysterious Vault"
+      },
+      "description": {
+        "translate": "What treasures lay just behind that door?",
+        "color": "green"
+      },
+      "frame": "task"
     },
     "parent": "elevator:elevator/first_floor",
     "criteria": {
-        "vault": {
-            "trigger": "minecraft:tick",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "nbt": "{Tags:[\"vault\"]}"
-                        }
-                    }
-                ]
-            }  
+      "vault": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"vault\"]}"
+              }
+            }
+          ]
         }
+      }
     }
-}
+  }
+  
