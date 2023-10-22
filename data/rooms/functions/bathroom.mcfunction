@@ -11,14 +11,14 @@ tag @a add bathroom
 #Room logic
 ##Playsound flushing
 schedule function sounds:flush1 80t
-schedule function sounds:flush2 120t
-schedule function sounds:flush3 122t
-schedule function sounds:flush4 124t
-schedule function sounds:flush5 126t
-schedule function sounds:flush6 128t
-schedule function sounds:flush7 130t
-schedule function sounds:flush8 132t
-schedule function sounds:flush9 134t
+schedule function sounds:flush2 170t
+schedule function sounds:flush3 198t
+schedule function sounds:flush4 218t
+schedule function sounds:flush5 226t
+schedule function sounds:flush6 234t
+schedule function sounds:flush7 242t
+schedule function sounds:flush8 250t
+schedule function sounds:flush9 258t
 
 
 #Close Room's door after 15 sec (600 ticks)
