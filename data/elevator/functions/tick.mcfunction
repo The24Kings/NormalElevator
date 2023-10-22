@@ -14,7 +14,9 @@ function elevator:elevator_door_open
 #Test if player is near the entrance hallway
 function tasks:test_hallway
 
-##function elevator:slap_delay
-
 #Change the color of the armor in credits
 function elevator:rainbow
+
+##Effects
+effect give @a minecraft:saturation infinite 0 true
+effect give @a minecraft:weakness infinite 255 true
