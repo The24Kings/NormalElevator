@@ -182,7 +182,7 @@ def main():
         print(f"\nWriting to {ADVANCEMENT}")
 
     contents["criteria"][floor_name] = {"trigger": "minecraft:tick","conditions": {"player": [{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\"" + f"{floor_name}" + "\"]}"}}]}}
-    contents["requirements"].append(floor_name)
+    contents["requirements"].append([floor_name])
 
     with open(ADVANCEMENT, "w") as f:
         json.dump(contents, f, indent=4)
