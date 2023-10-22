@@ -30,6 +30,7 @@ execute as @e[type=armor_stand, tag=selected, tag=pig_race, sort=nearest] at @s 
 execute as @e[type=armor_stand, tag=selected, tag=vault, sort=nearest] at @s run function rooms:vault
 execute as @e[type=armor_stand, tag=selected, tag=oasis, sort=nearest] at @s run function rooms:oasis
 execute as @e[type=armor_stand, tag=selected, tag=skyblock, sort=nearest] at @s run function rooms:skyblock
+execute as @e[type=armor_stand, tag=selected, tag=cherry_grove, sort=nearest] at @s run function rooms:cherry_grove
 
 
 #Play arrival sound

@@ -25,6 +25,7 @@ execute as @a[tag=inside,tag=pig_race] at @s run tp @s ~-155 ~ ~177
 execute as @a[tag=inside,tag=vault] at @s run tp @s ~-40 ~ ~266
 execute as @a[tag=inside,tag=oasis] at @s run tp @s ~-97 ~ ~266
 execute as @a[tag=inside,tag=skyblock] at @s run tp @s ~-229 ~0 ~237
+execute as @a[tag=inside,tag=cherry_grove] at @s run tp @s ~0 ~0 ~266
 
 
 #Remove all room specific tags
@@ -50,6 +51,7 @@ tag @a remove pig_race
 tag @a remove vault
 tag @a remove oasis
 tag @a remove skyblock
+tag @a remove cherry_grove
 
 #Music
 function sounds:elevator1
