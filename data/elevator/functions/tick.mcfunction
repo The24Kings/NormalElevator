@@ -1,5 +1,5 @@
 #Force entities to follow a path
-#function elevator:path
+function elevator:path
 
 #Check which floors are enabled and add or remove the 'enabled' tag
 function tasks:enable_or_disable
