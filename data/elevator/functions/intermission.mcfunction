@@ -27,6 +27,7 @@ execute as @a[tag=inside,tag=oasis] at @s run tp @s ~-97 ~ ~266
 execute as @a[tag=inside,tag=skyblock] at @s run tp @s ~-229 ~0 ~237
 execute as @a[tag=inside,tag=cherry_grove] at @s run tp @s ~0 ~0 ~266
 execute as @a[tag=inside,tag=bedwars] at @s run tp @s ~-1 ~0 ~317
+execute as @a[tag=inside,tag=pig_mower] at @s run tp @s ~-262 ~0 ~0
 
 
 #Remove all room specific tags
@@ -54,6 +55,7 @@ tag @a remove oasis
 tag @a remove skyblock
 tag @a remove cherry_grove
 tag @a remove bedwars
+tag @a remove pig_mower
 
 #Music
 execute at @p as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=intermission] run playsound minecraft:intermission master @a ~ ~ ~ 1 1

@@ -322,6 +322,20 @@
                     }
                 ]
             }
+        },
+        "pig_mower": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"pig_mower\"]}"
+                        }
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -390,6 +404,9 @@
         ],
         [
             "bedwars"
+        ],
+        [
+            "pig_mower"
         ]
     ]
 }

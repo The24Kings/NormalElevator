@@ -21,3 +21,8 @@ fill 14 25 -282 2 30 -295 minecraft:air replace minecraft:end_stone
 
 ##Cherry Grove 
 setblock -8 25 -227 minecraft:stone
+
+##Pig Mower 
+fill 257 25 36 281 25 29 tall_grass[half=lower]
+fill 257 26 36 281 26 29 tall_grass[half=upper]
+fill 257 24 36 281 24 29 grass_block
