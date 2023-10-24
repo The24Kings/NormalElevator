@@ -18,3 +18,6 @@ setblock 221 22 -145 minecraft:crying_obsidian
 fill 14 25 -282 2 30 -295 minecraft:air replace minecraft:oak_planks
 fill 14 25 -282 2 30 -295 minecraft:air replace minecraft:red_wool
 fill 14 25 -282 2 30 -295 minecraft:air replace minecraft:end_stone
+
+##Cherry Grove 
+setblock -8 25 -227 minecraft:stone
