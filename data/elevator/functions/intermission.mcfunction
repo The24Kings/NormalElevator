@@ -56,7 +56,7 @@ tag @a remove cherry_grove
 tag @a remove bedwars
 
 #Music
-function sounds:elevator1
+execute at @p as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=intermission] run playsound minecraft:intermission master @a ~ ~ ~ 1 1
 
 #Remove room specific items
 ##Bedwars
@@ -65,5 +65,4 @@ clear @a oak_planks
 clear @a red_wool
 
 #After everything has been removed run, then go to next floor with intermission length of 600 ticks (30 sec)
-##TODO; Play Music
 schedule function elevator:goto_next_floor 15s
