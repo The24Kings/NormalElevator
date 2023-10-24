@@ -9,17 +9,17 @@ schedule function tasks:open_room_door 1s
 tag @a add pig_mower
 
 #Room logic
-summon minecraft:pig 257 25 36 {Tags:["mower"]}
-summon minecraft:pig 257 25 35 {Tags:["mower"]}
-summon minecraft:pig 257 25 34 {Tags:["mower"]}
-summon minecraft:pig 257 25 33 {Tags:["mower"]}
-summon minecraft:pig 257 25 32 {Tags:["mower"]}
-summon minecraft:pig 257 25 31 {Tags:["mower"]}
-summon minecraft:pig 257 25 30 {Tags:["mower"]}
-summon minecraft:pig 257 25 29 {Tags:["mower"]}
+summon minecraft:pig 250 25 36 {Tags:["mower"]}
+summon minecraft:pig 250 25 35 {Tags:["mower"]}
+summon minecraft:pig 250 25 34 {Tags:["mower"]}
+summon minecraft:pig 250 25 33 {Tags:["mower"]}
+summon minecraft:pig 250 25 32 {Tags:["mower"]}
+summon minecraft:pig 250 25 31 {Tags:["mower"]}
+summon minecraft:pig 250 25 30 {Tags:["mower"]}
+summon minecraft:pig 250 25 29 {Tags:["mower"]}
 
 #Close Room's door after 30 sec (600 ticks)
-schedule function tasks:close_room_door 15s
+schedule function tasks:close_room_door 16s
 
 #Bring Players back after 33 sec (660 ticks)
-schedule function elevator:intermission 18s
+schedule function elevator:intermission 19s
