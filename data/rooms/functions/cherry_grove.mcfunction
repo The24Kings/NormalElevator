@@ -9,10 +9,10 @@ schedule function tasks:open_room_door 1s
 tag @a add cherry_grove
 
 #Room logic
-schedule function tasks:summon_minecraft_live 25t
+schedule function tasks:summon_minecraft_live 3s
 
 #Close Room's door after 30 sec (600 ticks)
-schedule function tasks:close_room_door 10s
+schedule function tasks:close_room_door 12s
 
 #Bring Players back after 33 sec (660 ticks)
-schedule function elevator:intermission 33s
+schedule function elevator:intermission 15s
