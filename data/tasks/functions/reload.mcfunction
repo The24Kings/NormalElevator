@@ -2,7 +2,7 @@
 function elevator:reset_start
 function rooms:reset_rooms
 function elevator:reset_floors
-function elevator:reset_slime_barriers
+function tasks:reset_barriers
 
 schedule clear elevator:goto_next_floor
 
