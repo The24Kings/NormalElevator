@@ -13,3 +13,8 @@ setblock -38 26 24 minecraft:iron_door[facing=south,half=upper,hinge=right]
 fill 221 25 -93 222 27 -93 gravel
 setblock 221 20 -144 minecraft:polished_blackstone_button[facing=south]
 setblock 221 22 -145 minecraft:crying_obsidian
+
+##Bedwars
+fill 14 25 -282 2 30 -295 minecraft:air replace minecraft:oak_planks
+fill 14 25 -282 2 30 -295 minecraft:air replace minecraft:red_wool
+fill 14 25 -282 2 30 -295 minecraft:air replace minecraft:end_stone

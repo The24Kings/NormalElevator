@@ -26,6 +26,7 @@ execute as @a[tag=inside,tag=vault] at @s run tp @s ~-40 ~ ~266
 execute as @a[tag=inside,tag=oasis] at @s run tp @s ~-97 ~ ~266
 execute as @a[tag=inside,tag=skyblock] at @s run tp @s ~-229 ~0 ~237
 execute as @a[tag=inside,tag=cherry_grove] at @s run tp @s ~0 ~0 ~266
+execute as @a[tag=inside,tag=bedwars] at @s run tp @s ~-1 ~0 ~317
 
 
 #Remove all room specific tags
@@ -52,9 +53,16 @@ tag @a remove vault
 tag @a remove oasis
 tag @a remove skyblock
 tag @a remove cherry_grove
+tag @a remove bedwars
 
 #Music
 function sounds:elevator1
+
+#Remove room specific items
+##Bedwars
+clear @a end_stone
+clear @a oak_planks
+clear @a red_wool
 
 #After everything has been removed run, then go to next floor with intermission length of 600 ticks (30 sec)
 ##TODO; Play Music

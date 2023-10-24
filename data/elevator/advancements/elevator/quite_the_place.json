@@ -308,6 +308,20 @@
                     }
                 ]
             }
+        },
+        "bedwars": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"bedwars\"]}"
+                        }
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -373,6 +387,9 @@
         ],
         [
             "cherry_grove"
+        ],
+        [
+            "bedwars"
         ]
     ]
 }
