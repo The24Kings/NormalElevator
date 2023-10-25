@@ -15,4 +15,4 @@ tag @a add skyblock
 schedule function tasks:close_room_door 15s
 
 #Bring Players back after 33 sec (660 ticks)
-schedule function elevator:intermission 33s
+schedule function elevator:intermission 18s

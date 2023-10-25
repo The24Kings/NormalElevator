@@ -17,7 +17,7 @@ give @a minecraft:iron_shovel{CanDestroy:["minecraft:gravel"]}
 schedule function tasks:close_room_door 120s
 
 #Remove shovels from players
-schedule function tasks:clear_shovel 120s
+schedule function tasks:clear_shovel 90s
 
 #Bring Players back after 123 sec (660 ticks)
-schedule function elevator:intermission 123s
+schedule function elevator:intermission 93s
