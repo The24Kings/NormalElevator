@@ -9,6 +9,7 @@ schedule function tasks:open_room_door 1s
 tag @a add oasis
 
 #Room logic
+playsound music_disc.strad master @a ~ ~ ~ 1 1 
 time set 23500
 
 #Close Room's door after 30 sec (600 ticks)

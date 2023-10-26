@@ -58,6 +58,7 @@ tag @a remove bedwars
 tag @a remove pig_mower
 
 #Music
+stopsound @a master
 execute at @p as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=intermission] run playsound minecraft:intermission master @a ~ ~ ~ 1 1
 
 #Room Cleanup
