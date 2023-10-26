@@ -60,11 +60,14 @@ tag @a remove pig_mower
 #Music
 execute at @p as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=intermission] run playsound minecraft:intermission master @a ~ ~ ~ 1 1
 
-#Remove room specific items
+#Room Cleanup
 ##Bedwars
 clear @a end_stone
 clear @a oak_planks
 clear @a red_wool
+
+##Oasis
+time set noon
 
 #After everything has been removed run, then go to next floor with intermission length of 600 ticks (30 sec)
 schedule function elevator:goto_next_floor 15s

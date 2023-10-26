@@ -9,7 +9,7 @@ schedule function tasks:open_room_door 1s
 tag @a add oasis
 
 #Room logic
-##No room logic for this room
+time set 23500
 
 #Close Room's door after 30 sec (600 ticks)
 schedule function tasks:close_room_door 30s
