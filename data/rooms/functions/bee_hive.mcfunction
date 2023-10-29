@@ -8,7 +8,12 @@ schedule function tasks:open_room_door 1s
 tag @a add bee_hive
 
 #Room logic
-##No room logic for this room
+summon minecraft:bee 150.5 18 -105.5 {Tags:["bee_hive_bee"]}
+summon minecraft:bee 150.5 18 -105.5 {Tags:["bee_hive_bee"]}
+summon minecraft:bee 150.5 18 -105.5 {Tags:["bee_hive_bee"]}
+summon minecraft:bee 150.5 18 -105.5 {Tags:["bee_hive_bee"]}
+summon minecraft:bee 150.5 18 -105.5 {Tags:["bee_hive_bee"]}
+summon minecraft:bee 150.5 18 -105.5 {Tags:["bee_hive_bee"]}
 
 schedule function tasks:close_room_door 60s
 

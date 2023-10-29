@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:honeycomb_block"
+        },
+        "title": {"translate":"Sticky Situation!"},
+        "frame":"task",
+        "description": {"color":"green","translate":"Get Inside The Bee's Nest"},
+        "hidden": true 
+    },
+    "parent": "elevator:elevator/first_floor",
+    "criteria": {
+        "": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"bee_hive\"]}"
+                        }
+                    }
+                ]
+            }  
+        }
+    }
+}
