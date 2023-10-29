@@ -9,6 +9,7 @@ schedule function tasks:open_room_door 1s
 tag @a add maze
 
 #Room logic
+execute as @a run effect give @s minecraft:darkness infinite 4 true
 ##Spooky Noises when you touch Herobrine's grave
 
 #Close Room's door after 30 sec (600 ticks)
