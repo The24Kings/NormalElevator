@@ -4,10 +4,10 @@
         "item": "minecraft:lodestone"
       },
       "title": {
-        "translate": "What Could Be Inside?"
+        "translate": "Locked Up Tight!"
       },
       "description": {
-        "translate": "Open the vault using the key",
+        "translate": "Open the vault using a key",
         "color": "green"
       },
       "frame": "goal",
