@@ -11,7 +11,6 @@ stopsound @a
 #Check each room if it has the 'selected' tag
 execute as @e[type=armor_stand, tag=selected, tag=test_house, sort=nearest] at @s run function rooms:test_house
 execute as @e[type=armor_stand, tag=selected, tag=offensive_post, sort=nearest] at @s run function rooms:offensive_post
-execute as @e[type=armor_stand, tag=selected, tag=bee, sort=nearest] at @s run function rooms:bee
 execute as @e[type=armor_stand, tag=selected, tag=manner, sort=nearest] at @s run function rooms:manner
 execute as @e[type=armor_stand, tag=selected, tag=geode_cave, sort=nearest] at @s run function rooms:geode_cave
 execute as @e[type=armor_stand, tag=selected, tag=treasure_cave, sort=nearest] at @s run function rooms:treasure_cave
@@ -33,6 +32,7 @@ execute as @e[type=armor_stand, tag=selected, tag=skyblock, sort=nearest] at @s 
 execute as @e[type=armor_stand, tag=selected, tag=cherry_grove, sort=nearest] at @s run function rooms:cherry_grove
 execute as @e[type=armor_stand, tag=selected, tag=bedwars, sort=nearest] at @s run function rooms:bedwars
 execute as @e[type=armor_stand, tag=selected, tag=pig_mower, sort=nearest] at @s run function rooms:pig_mower
+execute as @e[type=armor_stand, tag=selected, tag=bee_hive, sort=nearest] at @s run function rooms:bee_hive
 
 
 #Play arrival sound

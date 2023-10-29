@@ -6,7 +6,6 @@ execute at @e[type=armor_stand,tag=intermission] run tp @a[tag=!inside] ^ ^-4 ^-
 execute as @a[tag=inside,tag=start] at @s run tp @s ~32 ~ ~
 execute as @a[tag=inside,tag=test_house] at @s run tp @s ~-40 ~ ~
 execute as @a[tag=inside,tag=offensive_post] at @s run tp @s ~-65 ~ ~
-execute as @a[tag=inside,tag=bee] at @s run tp @s ~-84 ~ ~
 execute as @a[tag=inside,tag=manner] at @s run tp @s ~-112 ~ ~
 execute as @a[tag=inside,tag=geode_cave] at @s run tp @s ~-146 ~ ~
 execute as @a[tag=inside,tag=treasure_cave] at @s run tp @s ~-189 ~ ~
@@ -28,13 +27,13 @@ execute as @a[tag=inside,tag=skyblock] at @s run tp @s ~-229 ~0 ~237
 execute as @a[tag=inside,tag=cherry_grove] at @s run tp @s ~0 ~0 ~266
 execute as @a[tag=inside,tag=bedwars] at @s run tp @s ~-1 ~0 ~317
 execute as @a[tag=inside,tag=pig_mower] at @s run tp @s ~-262 ~0 ~0
+execute as @a[tag=inside,tag=bee_hive] at @s run tp @s ~-143 ~13 ~133
 
 
 #Remove all room specific tags
 tag @a remove start
 tag @a remove test_house
 tag @a remove offensive_post
-tag @a remove bee
 tag @a remove manner
 tag @a remove geode_cave
 tag @a remove treasure_cave
@@ -56,6 +55,7 @@ tag @a remove skyblock
 tag @a remove cherry_grove
 tag @a remove bedwars
 tag @a remove pig_mower
+tag @a remove bee_hive
 
 #Music
 stopsound @a master

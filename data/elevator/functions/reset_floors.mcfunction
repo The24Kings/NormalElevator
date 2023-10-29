@@ -8,7 +8,6 @@ summon minecraft:armor_stand 7 29 37 {Tags:["intermission","elevator"],Invisible
 ##DEFAULT: summon minecraft:armor_stand ~ ~ ~ {Tags:["","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 47 29 37 {Tags:["test_house",     "elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 72 29 37 {Tags:["offensive_post", "elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
-summon minecraft:armor_stand 91 29 37 {Tags:["bee",            "elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 119 29 37 {Tags:["manner",        "elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 153 29 37 {Tags:["geode_cave",    "elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 196 29 37 {Tags:["treasure_cave", "elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
@@ -31,6 +30,7 @@ summon minecraft:armor_stand 236 29 -200 {Tags:["skyblock","elevator","close"],I
 summon minecraft:armor_stand 7 29 -229 {Tags:["cherry_grove","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 8 29 -280 {Tags:["bedwars","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 269 29 37 {Tags:["pig_mower","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
+summon minecraft:armor_stand 150 16 -96 {Tags:["bee_hive","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 
 #Test Elevators
 summon minecraft:armor_stand 5 8 24 {Tags:["open","elevator","dummy"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}

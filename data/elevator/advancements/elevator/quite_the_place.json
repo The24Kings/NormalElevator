@@ -29,20 +29,6 @@
                 ]
             }
         },
-        "bee": {
-            "trigger": "minecraft:tick",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "nbt": "{Tags:[\"bee\"]}"
-                        }
-                    }
-                ]
-            }
-        },
         "manner": {
             "trigger": "minecraft:tick",
             "conditions": {
@@ -336,14 +322,25 @@
                     }
                 ]
             }
+        },
+        "bee_hive": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"bee_hive\"]}"
+                        }
+                    }
+                ]
+            }
         }
     },
     "requirements": [
         [
             "offensive_post"
-        ],
-        [
-            "bee"
         ],
         [
             "manner"
@@ -407,6 +404,12 @@
         ],
         [
             "pig_mower"
+        ],
+        [
+            "bee_hive"
+        ],
+        [
+            "TESTING"
         ]
     ]
 }
