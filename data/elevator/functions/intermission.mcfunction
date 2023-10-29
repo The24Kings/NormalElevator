@@ -76,5 +76,8 @@ kill @e[type=bee,tag=bee_hive_bee]
 ##Maze
 execute as @a run effect clear @s minecraft:darkness
 
+##Lost 
+setblock 87 18 -159 minecraft:stone
+
 #After everything has been removed run, then go to next floor with intermission length of 600 ticks (30 sec)
 schedule function elevator:goto_next_floor 15s
