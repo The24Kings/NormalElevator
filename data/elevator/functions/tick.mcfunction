@@ -18,5 +18,5 @@ function tasks:test_hallway
 function elevator:rainbow
 
 ##Effects
-effect give @a minecraft:saturation infinite 0 true
-effect give @a minecraft:weakness infinite 255 true
+execute as @a[gamemode=adventure] run effect give @s minecraft:saturation infinite 0 true
+execute as @a[gamemode=adventure] run effect give @s minecraft:weakness infinite 255 true
