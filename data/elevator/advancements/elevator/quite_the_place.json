@@ -350,6 +350,20 @@
                     }
                 ]
             }
+        },
+        "office_building": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"office_building\"]}"
+                        }
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -424,6 +438,9 @@
         ],
         [
             "server_room"
+        ],
+        [
+            "office_building"
         ]
     ]
 }

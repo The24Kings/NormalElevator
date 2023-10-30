@@ -32,6 +32,7 @@ summon minecraft:armor_stand 8 29 -280 {Tags:["bedwars","elevator","close"],Invi
 summon minecraft:armor_stand 269 29 37 {Tags:["pig_mower","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 150 16 -96 {Tags:["bee_hive","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 summon minecraft:armor_stand 206 29 -169 {Tags:["server_room","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
+summon minecraft:armor_stand 91 29 37 {Tags:["office_building","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
 
 #Test Elevators
 summon minecraft:armor_stand 5 8 24 {Tags:["open","elevator","dummy"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}

@@ -34,6 +34,7 @@ execute as @e[type=armor_stand, tag=selected, tag=bedwars, sort=nearest] at @s r
 execute as @e[type=armor_stand, tag=selected, tag=pig_mower, sort=nearest] at @s run function rooms:pig_mower
 execute as @e[type=armor_stand, tag=selected, tag=bee_hive, sort=nearest] at @s run function rooms:bee_hive
 execute as @e[type=armor_stand, tag=selected, tag=server_room, sort=nearest] at @s run function rooms:server_room
+execute as @e[type=armor_stand, tag=selected, tag=office_building, sort=nearest] at @s run function rooms:office_building
 
 
 #Play arrival sound
