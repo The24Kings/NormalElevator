@@ -28,6 +28,7 @@ execute as @a[tag=inside,tag=cherry_grove] at @s run tp @s ~0 ~0 ~266
 execute as @a[tag=inside,tag=bedwars] at @s run tp @s ~-1 ~0 ~317
 execute as @a[tag=inside,tag=pig_mower] at @s run tp @s ~-262 ~0 ~0
 execute as @a[tag=inside,tag=bee_hive] at @s run tp @s ~-143 ~13 ~133
+execute as @a[tag=inside,tag=server_room] at @s run tp @s ~-199 ~0 ~206
 
 
 #Remove all room specific tags
@@ -56,6 +57,7 @@ tag @a remove cherry_grove
 tag @a remove bedwars
 tag @a remove pig_mower
 tag @a remove bee_hive
+tag @a remove server_room
 
 #Music
 stopsound @a master

@@ -336,6 +336,20 @@
                     }
                 ]
             }
+        },
+        "server_room": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"server_room\"]}"
+                        }
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -407,6 +421,9 @@
         ],
         [
             "bee_hive"
+        ],
+        [
+            "server_room"
         ]
     ]
 }
