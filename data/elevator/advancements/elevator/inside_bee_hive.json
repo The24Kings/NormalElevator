@@ -23,7 +23,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"bee_hive\"]}"
+                "nbt": "{Tags:[\"bee_hive_nest\"]}"
               }
             }
           ]
