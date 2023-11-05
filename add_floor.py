@@ -166,9 +166,11 @@ def main():
                 contents[index] = 'execute as @a[tag=inside] at @s run tp @s ' + f'~{relative_x} ~{relative_y} ~{relative_z}' + '\n'
             case 8:
                 contents[index] = 'tag @a add ' + f'{floor_name}' + '\n'
-            case 14:
-                contents[index] = 'schedule function tasks:close_room_door ' + f'{time}s' + '\n'
+            case 11:
+                contents[index] = f'scoreboard players set Timer room_remainder {time*20}'
             case 17:
+                contents[index] = 'schedule function tasks:close_room_door ' + f'{time}s' + '\n'
+            case 20:
                 contents[index] = 'schedule function elevator:intermission ' + f'{time + 3}s' + '\n'
             case _:
                 continue
