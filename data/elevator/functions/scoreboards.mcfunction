@@ -11,7 +11,8 @@ scoreboard objectives add timers dummy "Timers"
 scoreboard objectives add room_remainder dummy "room_remainder"
 
 scoreboard objectives add Math dummy "Math"
-scoreboard players add Minutes Math 1200
-scoreboard players add Seconds Math 20
-scoreboard players add 60 Math 60
-scoreboard players add Minimum Math 0
+scoreboard players set Minutes Math 1200
+scoreboard players set Seconds Math 20
+scoreboard players set 60 Math 60
+scoreboard players set Minimum Math 9
+scoreboard players set Zero Math 0
