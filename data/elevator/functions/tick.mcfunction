@@ -17,6 +17,9 @@ function tasks:test_hallway
 #Change the color of the armor in credits
 function elevator:rainbow
 
+#Room Remainder Countdown
+function elevator:room_remainder_countdown
+
 ##Effects
 execute as @a[gamemode=adventure] run effect give @s minecraft:saturation infinite 0 true
 execute as @a[gamemode=adventure] run effect give @s minecraft:weakness infinite 255 true
