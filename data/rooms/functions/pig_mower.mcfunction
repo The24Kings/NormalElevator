@@ -8,6 +8,9 @@ schedule function tasks:open_room_door 1s
 #Give the player the room specific tag
 tag @a add pig_mower
 
+#Display room timer (in ticks)
+scoreboard players set Timer room_remainder 320
+
 #Room logic
 summon minecraft:pig 250 25 36 {Tags:["mower"]}
 summon minecraft:pig 250 25 35 {Tags:["mower"]}

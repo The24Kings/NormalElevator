@@ -8,6 +8,9 @@ schedule function tasks:open_room_door 1s
 #Give the player the room specific tag
 tag @a add maze
 
+#Display room timer (in ticks)
+scoreboard players set Timer room_remainder 600
+
 #Room logic
 execute as @a run effect give @s minecraft:darkness infinite 4 true
 ##Spooky Noises when you touch Herobrine's grave

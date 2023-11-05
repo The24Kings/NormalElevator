@@ -8,6 +8,9 @@ schedule function tasks:open_room_door 1s
 #Give the player the room specific tag
 tag @a add pompeii
 
+#Display room timer (in ticks)
+scoreboard players set Timer room_remainder 1200
+
 #Room logic
 ##Explosions and volcano exploding
 

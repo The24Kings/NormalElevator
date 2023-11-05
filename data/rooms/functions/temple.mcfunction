@@ -8,13 +8,16 @@ schedule function tasks:open_room_door 1s
 #Give the player the room specific tag
 tag @a add temple
 
+#Display room timer (in ticks)
+scoreboard players set Timer room_remainder 1800
+
 #Room logic
 ##Give all players a shovel that can break gravel
 give @a minecraft:iron_shovel{CanDestroy:["minecraft:gravel"]}
 ##When a player presses the button at the end run 'function rooms:start_temple'
 
 #Close Room's door after 120 sec (600 ticks)
-schedule function tasks:close_room_door 120s
+schedule function tasks:close_room_door 90s
 
 #Remove shovels from players
 schedule function tasks:clear_shovel 90s

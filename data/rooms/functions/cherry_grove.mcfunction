@@ -8,6 +8,9 @@ schedule function tasks:open_room_door 1s
 #Give the player the room specific tag
 tag @a add cherry_grove
 
+#Display room timer (in ticks)
+scoreboard players set Timer room_remainder 140
+
 #Room logic
 schedule function tasks:summon_minecraft_live 3s
 

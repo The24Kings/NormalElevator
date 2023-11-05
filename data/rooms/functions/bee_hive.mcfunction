@@ -7,6 +7,9 @@ schedule function tasks:open_room_door 1s
 
 tag @a add bee_hive
 
+#Display room timer (in ticks)
+scoreboard players set Timer room_remainder 1200
+
 #Room logic
 summon minecraft:bee 150.5 18 -105.5 {Tags:["bee_hive_bee"]}
 summon minecraft:bee 150.5 18 -105.5 {Tags:["bee_hive_bee"]}
