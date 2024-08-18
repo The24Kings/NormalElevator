@@ -13,7 +13,7 @@ scoreboard players set Timer room_remainder 1800
 
 #Room logic
 ##Give all players a shovel that can break gravel
-give @a minecraft:iron_shovel{CanDestroy:["minecraft:gravel"]}
+give @a minecraft:iron_shovel[can_break={blocks:['gravel']}] 1
 ##When a player presses the button at the end run 'function rooms:start_temple'
 
 #Close Room's door after 120 sec (600 ticks)

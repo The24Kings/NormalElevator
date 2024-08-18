@@ -1,29 +1,28 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:honeycomb_block"
+        "id": "minecraft:polished_blackstone"
       },
       "title": {
-        "translate": "Sticky Situation"
+        "translate": "Privacy Please!"
       },
       "description": {
-        "translate": "Get Inside The Bee's Nest",
+        "translate": "It's rude to listen in on someone in the restroom",
         "color": "green"
       },
-      "frame": "task",
-      "hidden": true
+      "frame": "task"
     },
     "parent": "elevator:elevator/first_floor",
     "criteria": {
-      "bee_hive": {
-        "trigger": "minecraft:tick",
+      "bathroom": {
+        "trigger": "minecraft:location",
         "conditions": {
           "player": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"bee_hive_nest\"]}"
+                "nbt": "{Tags:[\"bathroom\"]}"
               }
             }
           ]

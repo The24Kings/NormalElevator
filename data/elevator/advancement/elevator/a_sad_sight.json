@@ -1,20 +1,21 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:iron_block"
+        "id": "minecraft:obsidian"
       },
       "title": {
-        "translate": "Mysterious Vault"
+        "translate": "Hate To See It"
       },
       "description": {
-        "translate": "What treasures lay just behind that door?",
+        "translate": "Wouldn't want to be this poor person.",
         "color": "green"
       },
-      "frame": "task"
+      "frame": "task",
+      "hidden": true
     },
     "parent": "elevator:elevator/first_floor",
     "criteria": {
-      "vault": {
+      "skyblock": {
         "trigger": "minecraft:tick",
         "conditions": {
           "player": [
@@ -22,7 +23,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"vault\"]}"
+                "nbt": "{Tags:[\"skyblock\"]}"
               }
             }
           ]

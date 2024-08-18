@@ -13,6 +13,9 @@ summon minecraft:interaction 32.5 25 30.5
 summon minecraft:interaction 22.5 25 30.5
 summon minecraft:interaction 22.5 25 26.5
 
+##Starting Area
+summon minecraft:interaction -31.5 27 40.5 {height:1.5f,width:3.5f}
+
 ##Server Room 
 summon minecraft:interaction 208.5 23 -184.5 {height:1.5f,width:1.5f}
 summon minecraft:interaction 204.5 23 -188.5 {height:1.5f,width:1.5f}

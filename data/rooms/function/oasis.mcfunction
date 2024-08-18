@@ -12,7 +12,7 @@ tag @a add oasis
 scoreboard players set Timer room_remainder 600
 
 #Room logic
-playsound music_disc.strad master @a ~ ~ ~ 1 1 
+playsound music_disc.strad master @a ~ ~ ~ 1 1 1
 time set 23500
 
 #Close Room's door after 30 sec (600 ticks)

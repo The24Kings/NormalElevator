@@ -1,13 +1,13 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:stone"
+        "id": "minecraft:command_block"
       },
       "title": {
-        "translate": ""
+        "translate": "Mechanism Behind the Elevator"
       },
       "description": {
-        "translate": "",
+        "translate": "You're not allowed on this floor!",
         "color": "green"
       },
       "frame": "task",
@@ -16,14 +16,14 @@
     "parent": "elevator:elevator/first_floor",
     "criteria": {
       "": {
-        "trigger": "minecraft:impossible",
+        "trigger": "minecraft:tick",
         "conditions": {
           "player": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"INSERT_TAG\"]}"
+                "nbt": "{Tags:[\"server_room\"]}"
               }
             }
           ]

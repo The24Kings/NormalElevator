@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:crying_obsidian"
+        "id": "minecraft:crying_obsidian"
       },
       "title": {
         "translate": "Strange Totem"
@@ -23,7 +23,9 @@
                 "minecraft:crying_obsidian"
               ],
               "count": 1,
-              "nbt": "{CustomTag:key}"
+              "components": {
+                "custom_data": "{Tags:[\"key\"]}"
+              }
             }
           ]
         }

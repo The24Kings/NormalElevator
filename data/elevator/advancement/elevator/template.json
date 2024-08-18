@@ -1,13 +1,13 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:obsidian"
+        "id": "minecraft:stone"
       },
       "title": {
-        "translate": "Hate To See It"
+        "translate": ""
       },
       "description": {
-        "translate": "Wouldn't want to be this poor person.",
+        "translate": "",
         "color": "green"
       },
       "frame": "task",
@@ -15,15 +15,15 @@
     },
     "parent": "elevator:elevator/first_floor",
     "criteria": {
-      "skyblock": {
-        "trigger": "minecraft:tick",
+      "": {
+        "trigger": "minecraft:impossible",
         "conditions": {
           "player": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"skyblock\"]}"
+                "nbt": "{Tags:[\"INSERT_TAG\"]}"
               }
             }
           ]

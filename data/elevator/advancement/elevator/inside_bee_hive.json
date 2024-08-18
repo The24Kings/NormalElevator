@@ -1,21 +1,21 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:spruce_leaves"
+        "id": "minecraft:honeycomb_block"
       },
       "title": {
-        "translate": "Secret Crypt"
+        "translate": "Sticky Situation"
       },
       "description": {
-        "translate": "Discover the secret Crypt",
+        "translate": "Get Inside The Bee's Nest",
         "color": "green"
       },
-      "frame": "goal",
+      "frame": "task",
       "hidden": true
     },
     "parent": "elevator:elevator/first_floor",
     "criteria": {
-      "maze": {
+      "bee_hive": {
         "trigger": "minecraft:tick",
         "conditions": {
           "player": [
@@ -23,7 +23,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"maze_end\"]}"
+                "nbt": "{Tags:[\"bee_hive_nest\"]}"
               }
             }
           ]

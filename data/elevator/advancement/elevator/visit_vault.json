@@ -1,21 +1,20 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:command_block"
+        "id": "minecraft:iron_block"
       },
       "title": {
-        "translate": "Mechanism Behind the Elevator"
+        "translate": "Mysterious Vault"
       },
       "description": {
-        "translate": "You're not allowed on this floor!",
+        "translate": "What treasures lay just behind that door?",
         "color": "green"
       },
-      "frame": "task",
-      "hidden": true
+      "frame": "task"
     },
     "parent": "elevator:elevator/first_floor",
     "criteria": {
-      "": {
+      "vault": {
         "trigger": "minecraft:tick",
         "conditions": {
           "player": [
@@ -23,7 +22,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"server_room\"]}"
+                "nbt": "{Tags:[\"vault\"]}"
               }
             }
           ]

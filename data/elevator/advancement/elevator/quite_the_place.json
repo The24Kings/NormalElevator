@@ -1,15 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner:\"Dipicrylamine\"}"
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "Dipicrylamine"
+                }
+            }
         },
         "title": {
             "translate": "Quite The Place!"
         },
         "description": {
             "translate": "Visit all floors",
-            "color": "purple"
+            "color": "dark_purple"
         },
         "frame": "challenge"
     },

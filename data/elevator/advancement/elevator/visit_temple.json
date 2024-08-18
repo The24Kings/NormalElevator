@@ -1,28 +1,28 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:flint_and_steel"
+        "id": "minecraft:mossy_stone_bricks"
       },
       "title": {
-        "translate": "You Monster"
+        "translate": "Ancient Temple"
       },
       "description": {
-        "translate": "You stood there and watched",
+        "translate": "Many secrets are hidden deep in the jungle",
         "color": "green"
       },
       "frame": "task"
     },
     "parent": "elevator:elevator/first_floor",
     "criteria": {
-      "chicken": {
-        "trigger": "minecraft:tick",
+      "temple": {
+        "trigger": "minecraft:location",
         "conditions": {
           "player": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"chicken\"]}"
+                "nbt": "{Tags:[\"temple\"]}"
               }
             }
           ]

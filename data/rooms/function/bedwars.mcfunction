@@ -14,9 +14,9 @@ scoreboard players set Timer room_remainder 600
 #Room logic
 title @a title [{"text":"< "},{"text":" Protect The Bed ","color":"gold"},{"text":" >"}]
 
-give @a minecraft:red_wool{CanPlaceOn:["minecraft:smooth_stone","minecraft:end_stone","minecraft:oak_planks","minecraft:red_wool","red_bed"]} 64
-give @a minecraft:oak_planks{CanPlaceOn:["minecraft:smooth_stone","minecraft:end_stone","minecraft:red_wool","minecraft:oak_planks","red_bed"]} 64
-give @a minecraft:end_stone{CanPlaceOn:["minecraft:smooth_stone","minecraft:oak_planks","minecraft:red_wool","minecraft:end_stone","red_bed"]} 64
+give @a minecraft:red_wool[can_place_on={blocks:['smooth_stone','end_stone','oak_planks','red_wool','red_bed']}] 64
+give @a minecraft:oak_planks[can_place_on={blocks:['smooth_stone','end_stone','red_wool','oak_planks','red_bed']}] 64
+give @a minecraft:end_stone[can_place_on={blocks:['smooth_stone','oak_planks','red_wool','end_stone','red_bed']}] 64
 
 #Close Room's door after 30 sec (600 ticks)
 schedule function tasks:close_room_door 30s
