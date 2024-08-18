@@ -50,31 +50,6 @@ def main():
     print(f"Relative coords: ~{relative_x}, ~{relative_y}, ~{relative_z}")
     print(f"Armor stand coords: {armor_stand_x}, {armor_stand_y}, {armor_stand_z}, 180, 0")
 
-    """
-    # Print out Commands
-    print("\nCommands:")
-    print("reset_floors")
-    print('summon minecraft:armor_stand ' + f'{armor_stand_x} {armor_stand_y} {armor_stand_z}' + ' {Tags:[' + f'"{floor_name}"' + ',"elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}')
-    
-    print("\ngoto_next_floor")
-    print('execute as @e[type=armor_stand, tag=selected, tag=' + f'{floor_name}' + ', sort=nearest] at @s run function rooms:' + f'{floor_name}')
-
-    print("\nintermission")
-    print('execute as @a[tag=inside,tag=' + f'{floor_name}' + '] at @s run tp @s ' + f'~{relative_x * -1} ~{relative_y * -1} ~{relative_z * -1}')
-
-    print(f"\n{floor_name}.mcfunction")
-    print('execute as @a[tag=inside] at @s run tp @s ' + f'~{relative_x} ~{relative_y} ~{relative_z}')
-    print('tag @a add ' + f'{floor_name}')
-    print('schedule function tasks:close_room_door ' + f'{time}s')
-    print('schedule function elevator:intermission ' + f'{time + 3}s')
-    
-    print("\nRoom Selector")
-    print('summon minecraft:armor_stand ~ ~.5 ~ {Tags:["floor","' + f'{floor_name}' + '"],CustomName:"{\\"text\\":\\"' + f'{floor_name}' + '\\"}",CustomNameVisible:1}')
-
-    print("\nAdvancement")
-    print('"' + f'{floor_name}' + '": {"trigger": "minecraft:tick","conditions": {"player": [{"condition": "minecraft:entity_properties","entity": "this","predicate": {"nbt": "{Tags:[\\"' + f'{floor_name}' + '\\"]}"}}]}}')
-    print('["' + f'{floor_name}' + '"]')
-    """
     # Write to RESET_FLOORS
     with open(RESET_FLOORS, "r") as f:
         contents = f.readlines()
@@ -89,7 +64,7 @@ def main():
             if contents[insert].strip(): # If line is not empty
                 continue
 
-            contents.insert(insert, 'summon minecraft:armor_stand ' + f'{armor_stand_x} {armor_stand_y} {armor_stand_z}' + ' {Tags:[' + f'"{floor_name}"' + ',"elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}' + '\n')
+            contents.insert(insert, 'summon minecraft:armor_stand ' + f'{armor_stand_x} {armor_stand_y} {armor_stand_z}' + ' {Tags:[' + f'"{floor_name}"' + ',"elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}' + '\n')
             break
 
     with open(RESET_FLOORS, "w") as f:

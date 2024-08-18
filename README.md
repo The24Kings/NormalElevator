@@ -1,10 +1,10 @@
 # A Normal Elevator
-Based on the popular GMOD map created by <a href="https://www.pixeltailgames.com/elevator/"> PixelTail Games</a> and originally created by <a href=https://www.youtube.com/channel/UCHobjD55wR4c-5bD0AHDcEQ>ThePebblePrince</a>
+Based on the popular GMOD map created by <a href="https://www.pixeltailgames.com/elevator/"> PixelTail Games</a> and heavily inspired by <a href=https://www.youtube.com/channel/UCHobjD55wR4c-5bD0AHDcEQ>ThePebblePrince</a>
 
 <img src="resources\elevator_entrance.png"></img>
 
 ## Version
-<a href="https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-2">Minecraft 1.20.2</a>
+<a href="https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-1">Minecraft 1.21.1</a>
 
 ## Map Download
 <a href=https://www.mediafire.com/file/ocjjs2i2elbvvfr/Normal+Elevator.zip/file>World Download</a> on Mediafire
@@ -51,7 +51,7 @@ Based on the popular GMOD map created by <a href="https://www.pixeltailgames.com
 > It is crucial that the armor stand faces away from the elevator, the blue line denotes the facing direction of the armor stand
 
 ```MCFUNCTION
-summon minecraft:armor_stand ~ ~ ~ {Tags:["INSERT_TAG","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f,0f]}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["INSERT_TAG","elevator","close"],Invisible:1,Invulnerable:1,Rotation:[180f,0f]}
 ```
 
 <img src="resources\armor_stand_location.png"></img>
