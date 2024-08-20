@@ -9,6 +9,9 @@ Based on the popular GMOD map created by <a href="https://www.pixeltailgames.com
 ## Map Download
 <a href=https://www.mediafire.com/file/9m5l0dupj4ak3tm/Normal_Elevator.zip/file>World Download</a> on Mediafire
 
+## Resource Pack Download
+<a href=https://www.mediafire.com/file/d4mtdqvulfbu06b/Normal_Elevator_Magic_Sauce.zip/file>Resource Pack</a> on Mediafire
+
 ---
 
 # Automatically Add New Floors
