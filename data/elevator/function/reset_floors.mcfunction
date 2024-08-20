@@ -1,7 +1,7 @@
 kill @e[type=minecraft:armor_stand,tag=elevator]
 
 #Main Elevator
-summon minecraft:armor_stand -25 29 37 {Tags:["start","elevator","open"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
+summon minecraft:armor_stand -50 11 72 {Tags:["start","elevator","open"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 summon minecraft:armor_stand 7 29 37 {Tags:["intermission","elevator"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 
 #Floor Elevators
@@ -11,7 +11,7 @@ summon minecraft:armor_stand 72 29 37 {Tags:["offensive_post", "elevator","close
 summon minecraft:armor_stand 119 29 37 {Tags:["manner", "elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 summon minecraft:armor_stand 153 29 37 {Tags:["geode_cave","elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 summon minecraft:armor_stand 196 29 37 {Tags:["treasure_cave", "elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
-summon minecraft:armor_stand -38 29 42 {Tags:["hallway","elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
+summon minecraft:armor_stand -63 11 77 {Tags:["hallway","elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 summon minecraft:armor_stand 222 30 37 {Tags:["bathroom", "elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 summon minecraft:armor_stand -57 29 37 {Tags:["credits","elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 summon minecraft:armor_stand 359 29 37 {Tags:["pompeii","elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
@@ -33,6 +33,7 @@ summon minecraft:armor_stand 269 29 37 {Tags:["pig_mower","elevator","close"],In
 summon minecraft:armor_stand 150 16 -96 {Tags:["bee_hive","elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 summon minecraft:armor_stand 206 29 -169 {Tags:["server_room","elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 summon minecraft:armor_stand 91 29 37 {Tags:["office_building","elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
+summon minecraft:armor_stand 162 -7 -15 {Tags:["deep_dark","elevator","close"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
 
 #Test Elevators
 summon minecraft:armor_stand 5 8 24 {Tags:["open","elevator","dummy"],Invisible:true,Invulnerable:true,Rotation:[180f,0f]}
