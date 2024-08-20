@@ -36,6 +36,7 @@ execute as @e[type=armor_stand, tag=selected, tag=bee_hive, sort=nearest] at @s 
 execute as @e[type=armor_stand, tag=selected, tag=server_room, sort=nearest] at @s run function rooms:server_room
 execute as @e[type=armor_stand, tag=selected, tag=office_building, sort=nearest] at @s run function rooms:office_building
 execute as @e[type=armor_stand, tag=selected, tag=deep_dark, sort=nearest] at @s run function rooms:deep_dark
+execute as @e[type=armor_stand, tag=selected, tag=greenhouse, sort=nearest] at @s run function rooms:greenhouse
 
 
 #Play arrival sound

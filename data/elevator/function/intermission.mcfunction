@@ -31,6 +31,7 @@ execute as @a[tag=inside,tag=bee_hive] at @s run tp @s ~-143 ~13 ~133
 execute as @a[tag=inside,tag=server_room] at @s run tp @s ~-199 ~0 ~206
 execute as @a[tag=inside,tag=office_building] at @s run tp @s ~-84 ~0 ~0
 execute as @a[tag=inside,tag=deep_dark] at @s run tp @s ~-155 ~36 ~52
+execute as @a[tag=inside,tag=greenhouse] at @s run tp @s ~-10 ~0 ~52
 
 
 #Remove all room specific tags
@@ -62,7 +63,7 @@ tag @a remove bee_hive
 tag @a remove server_room
 tag @a remove office_building
 tag @a remove deep_dark
-tag @a remove deep_dark
+tag @a remove greenhouse
 
 #Music
 stopsound @a master
