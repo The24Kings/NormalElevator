@@ -3,12 +3,12 @@ import shutil
 
 def main():
     # File paths
-    RESET_FLOORS = "data\\elevator\\functions\\reset_floors.mcfunction"
-    INTERMISSION = "data\\elevator\\functions\\intermission.mcfunction"
-    NEXT_FLOOR = "data\\elevator\\functions\\goto_next_floor.mcfunction"
-    FLOOR_TEMPLATE = "data\\rooms\\functions\\template.mcfunction"
+    RESET_FLOORS = "data\\elevator\\function\\reset_floors.mcfunction"
+    INTERMISSION = "data\\elevator\\function\\intermission.mcfunction"
+    NEXT_FLOOR = "data\\elevator\\function\\goto_next_floor.mcfunction"
+    FLOOR_TEMPLATE = "data\\rooms\\function\\template.mcfunction"
 
-    ADVANCEMENT = "data\\elevator\\advancements\\elevator\\quite_the_place.json"
+    ADVANCEMENT = "data\\elevator\\advancement\\elevator\\quite_the_place.json"
 
     # Constants
     INTER_X = 7
@@ -122,7 +122,7 @@ def main():
         f.writelines(contents)
 
     # Copy FLOOR_TEMPLATE to NEW_FLOOR
-    NEW_FLOOR = shutil.copy(FLOOR_TEMPLATE, f"data\\rooms\\functions\\{floor_name}.mcfunction")
+    NEW_FLOOR = shutil.copy(FLOOR_TEMPLATE, f"data\\rooms\\function\\{floor_name}.mcfunction")
 
     # Write to NEW_FLOOR
     # Line 2 - execute as @a[tag=inside] at @s run tp @s ~<x> ~<y> ~<z>
