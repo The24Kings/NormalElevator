@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand, tag=start] at @s run setblock ^2 ^-3 ^-2 stone_button[facing=south]

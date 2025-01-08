@@ -1,1 +1,0 @@
-execute as @e[tag=bathroom_villager] at @s positioned ~ ~-1 ~ run playsound minecraft:block.bubble_column.whirlpool_inside block @a ~ ~ ~ 50 .75

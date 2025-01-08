@@ -1,1 +1,0 @@
-execute at @p as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=close] run playsound minecraft:block.amethyst_block.place master @a ~ ~ ~ 10 .5

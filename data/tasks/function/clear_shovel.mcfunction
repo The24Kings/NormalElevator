@@ -1,1 +1,0 @@
-clear @a iron_shovel

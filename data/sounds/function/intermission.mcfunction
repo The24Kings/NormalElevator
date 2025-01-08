@@ -1,1 +1,0 @@
-execute as @e[tag=intermission] at @s positioned ~ ~2 ~5 run playsound minecraft:music.overworld.meadow master @a ~ ~ ~
