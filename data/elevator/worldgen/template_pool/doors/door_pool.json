@@ -1,0 +1,14 @@
+{
+    "elements": [
+        {	
+          "element": {
+            "location": "elevator:elevator_main/elevator_door",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+          },
+          "weight": 1
+        }
+      ],
+      "fallback": "minecraft:empty"
+    }

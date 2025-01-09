@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [],
+    "step": "raw_generation",
+    "terrain_adaptation": "none",
+    "spawn_overrides": {},
+    "start_pool": "elevator:floor_pool",
+    "size": 4,
+    "start_height": {
+      "above_bottom": -58
+    },
+    "start_jigsaw_name": "elevator:elevator_anchor",
+    "max_distance_from_center": 128,
+    "use_expansion_hack": false
+  }
